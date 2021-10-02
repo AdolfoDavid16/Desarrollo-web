@@ -3,15 +3,16 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    height: 70vh;
-    border: 1px solid rgb(167, 167, 167);
+    height: 40vh;
+    border: 1px solid rgb(44, 41, 41);
     flex-wrap: wrap;
     display: inline-flex;
 }
 
 .itemProduct{
     width: 24%;
-    height: 200px;
-    border: 1px solid rgb(167, 167, 167);
-    margin-right: 10px;
+    height: 100px;
+    border: 2px solid rgb(231, 139, 139);
+    margin-right: 20px;
+    background-color: rgb(178, 178, 218)
 }
