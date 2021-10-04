@@ -1,0 +1,18 @@
+.loginComponent{
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.loginBox{
+    width: 20%;
+    height: 100px;
+    border: 2px solid gray;
+    margin: 2px auto 2px auto;
+    padding: 20px;
+    background-color: rgb(163, 215, 228)
+    
+
+}

@@ -1,0 +1,21 @@
+.galleryComponent{
+    padding: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vh;
+    border: 1px solid rgb(44, 41, 41);
+    flex-wrap: wrap;
+    display: inline-flex;
+}
+
+.itemProduct{
+    width: 40vh;
+    height: 80px;
+    border: 2px solid rgb(106, 18, 128);
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-top: 10px;
+    background-color: rgb(109, 21, 131))
+}
