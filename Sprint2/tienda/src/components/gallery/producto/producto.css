@@ -1,0 +1,8 @@
+.itemProduct{
+    width: 40%;
+    height: 100px;
+    border: 2px solid rgb(231, 139, 139);
+    margin-right: 20px;
+    margin-left: auto;
+    background-color: rgb(178, 178, 218)
+}

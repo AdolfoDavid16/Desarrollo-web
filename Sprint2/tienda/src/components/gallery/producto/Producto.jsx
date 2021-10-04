@@ -14,7 +14,7 @@ const Producto = ({item}) => {
         <div className="w-100"> 
         
             <div className="itemProduct">
-                        <div><strong>Nombreee:</strong> {new_item.nombre}</div>
+                        <div><strong>Nombre:</strong> {new_item.nombre}</div>
                         <div><strong>Precio:</strong> {new_item.precio}</div>
                         <div><strong>Id:</strong> {new_item.id}</div>
                     </div>

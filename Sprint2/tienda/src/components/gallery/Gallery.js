@@ -7,8 +7,6 @@ import Producto from './producto/Producto'
 const Gallery = ({ keyword }) => {
     const [productos, setProductos] = useState(products)
 
-    console.log("el primero", productos)
-
     useEffect(() => {
         if (keyword !== "") {
             console.log('keyword', keyword);
@@ -17,9 +15,8 @@ const Gallery = ({ keyword }) => {
             console.log ("ese es el",  producto)
             producto !== undefined ? setProductos([producto]) : setProductos([]);
                 
-            console.log("ese es el segundo", producto)
         } else {
-            console.log("entró al else")
+          
             setProductos(products);
         }
     }, [keyword])

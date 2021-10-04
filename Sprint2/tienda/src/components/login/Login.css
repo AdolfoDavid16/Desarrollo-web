@@ -1,6 +1,6 @@
 .loginComponent{
     width: 70%;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
 }
@@ -10,8 +10,9 @@
     width: 20%;
     height: 100px;
     border: 2px solid gray;
-    margin: 0px auto 0px auto;
+    margin: 2px auto 2px auto;
     padding: 20px;
     background-color: rgb(163, 215, 228)
     
+
 }
