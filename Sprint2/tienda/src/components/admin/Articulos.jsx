@@ -22,7 +22,6 @@ const Articulos = () => {
         });
     };
 
-    //obtener lista de vehículos desde el backend
     if (mostrarTabla) {
       obtenerArticulos();
     }
@@ -72,7 +71,7 @@ const TablaArticulos = ({ listaArticulos }) => {
   }, [listaArticulos]);
   return (
     <div className='flex flex-col items-center justify-center'>
-      <h2 className='text-2xl font-extrabold text-gray-800'>Todos los vehículos</h2>
+      <h2 className='text-2xl font-extrabold text-gray-800'>Todos los artículos</h2>
       <table>
         <thead>
           <tr>
@@ -140,7 +139,7 @@ const FormularioCreacionArticulos = ({ setMostrarTabla, listaArticulos, setArtic
             name='name'
             className='bg-gray-50 border border-gray-600 p-2 rounded-lg m-2'
             type='text'
-            placeholder='Corolla'
+            placeholder='Laptop'
             required
           />
         </label>
@@ -170,7 +169,7 @@ const FormularioCreacionArticulos = ({ setMostrarTabla, listaArticulos, setArtic
             type='number'
             min={100}
             max={200}
-            placeholder='2014'
+            placeholder='100'
             required
           />
         </label>
